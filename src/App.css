@@ -5,11 +5,10 @@
 }
 html{
   font-size: 62.5%;
-  height: 100vh;
-  width: 100vw;
   /* rem/em: 1em = 10px */
 }
 body{
+  margin: 2em;
   height: inherit;
   width: inherit;
 }
