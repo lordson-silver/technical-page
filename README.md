@@ -1,3 +1,24 @@
+React Logo
+# LEARNING REACT
+
+## What is React?
+lorem 200
+
+## Using React
+lorem 200
+
+[Visit the website for more information](www.reactjs.org)
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
