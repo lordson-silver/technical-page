@@ -4,12 +4,17 @@ import Header from "./components/Header/Header";
 import data from "./data/data";
 //import React, {useState} from 'react';
 import Paragraph from "./components/Paragraph/Paragraph";
+import Section from "./components/Section/Section";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <br />
+      <Section someTxt={data[0]} />
+      <Section someTxt={"Something Else"} />
+      <Section someTxt={"Another"} />
+      <Section someTxt={"One MOre"} />
+      {/* <br />
       <H2 someText="Brief History of Cars" />
       <br />
       <hr />
@@ -18,7 +23,7 @@ function App() {
         someText="Cars became widely available during the 20th century. One of the first cars affordable by the masses was the 1908 Model T,
        an American car manufactured by the Ford Motor Company. Cars were rapidly adopted in the US, where they replaced animal-drawn carriages and carts."
       />
-      <br />
+      <br /> */}
       {/* <H2 someText="Properties" /> */}
       {/* <br />
       <hr />

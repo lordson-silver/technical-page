@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.853);
+  /* background-color: rgba(0, 0, 0, 0.853); */
   height: 95vh;
   padding: 0 5vw;
   /* margin-top: 1.5em;
