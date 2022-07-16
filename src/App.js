@@ -1,15 +1,19 @@
 import "./App.css";
-import H2 from "./components/H2/H2";
 import Header from "./components/Header/Header";
 import data from "./data/data";
-//import React, {useState} from 'react';
-import Paragraph from "./components/Paragraph/Paragraph";
+import Section from "./components/Section/Section";
 
 function App() {
+  let isDescription = false;
+
   return (
     <div className="App">
-      <Header />
-      <br />
+      <Header isDescription={isDescription} someTxt={data[1]} />
+      <Section isDescription={isDescription} someTxt={data[0]} />
+      <Section isDescription={isDescription} someTxt={"Something Else"} />
+      <Section isDescription={isDescription} someTxt={"Another"} />
+      <Section isDescription={isDescription} someTxt={"One MOre"} />
+      {/* <br />
       <H2 someText="Brief History of Cars" />
       <br />
       <hr />
@@ -18,7 +22,7 @@ function App() {
         someText="Cars became widely available during the 20th century. One of the first cars affordable by the masses was the 1908 Model T,
        an American car manufactured by the Ford Motor Company. Cars were rapidly adopted in the US, where they replaced animal-drawn carriages and carts."
       />
-      <br />
+      <br /> */}
       {/* <H2 someText="Properties" /> */}
       {/* <br />
       <hr />
