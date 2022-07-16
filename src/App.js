@@ -1,7 +1,6 @@
 import "./App.css";
 import H2 from "./components/H2/H2";
 import Header from "./components/Header/Header";
-import Logo from "./components/Logo/Logo";
 import data from "./data/data";
 //import React, {useState} from 'react';
 import Paragraph from "./components/Paragraph/Paragraph";
@@ -9,14 +8,7 @@ import Paragraph from "./components/Paragraph/Paragraph";
 function App() {
   return (
     <div className="App">
-      <Logo />
       <Header />
-      <br />
-      <Paragraph someText="A car (or automobile) is a wheeled motor vehicle that is used for transportation." />
-      <Paragraph
-        someText="Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels,
-       and mainly transport people instead of goods."
-      />
       <br />
       <H2 someText="Brief History of Cars" />
       <br />
