@@ -1,19 +1,18 @@
 import "./App.css";
-import H2 from "./components/H2/H2";
 import Header from "./components/Header/Header";
 import data from "./data/data";
-//import React, {useState} from 'react';
-import Paragraph from "./components/Paragraph/Paragraph";
 import Section from "./components/Section/Section";
 
 function App() {
+  let isDescription = false;
+
   return (
     <div className="App">
-      <Header />
-      <Section someTxt={data[0]} />
-      <Section someTxt={"Something Else"} />
-      <Section someTxt={"Another"} />
-      <Section someTxt={"One MOre"} />
+      <Header isDescription={isDescription} someTxt={data[1]} />
+      <Section isDescription={isDescription} someTxt={data[0]} />
+      <Section isDescription={isDescription} someTxt={"Something Else"} />
+      <Section isDescription={isDescription} someTxt={"Another"} />
+      <Section isDescription={isDescription} someTxt={"One MOre"} />
       {/* <br />
       <H2 someText="Brief History of Cars" />
       <br />

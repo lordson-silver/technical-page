@@ -1,7 +1,8 @@
+import { useState } from "react";
 import classes from "./Paragraph.module.css";
 
-let Paragraph = ({ someText }) => {
-  return <p className={classes.p}>{someText}</p>;
+let Paragraph = ({ someTxt, isDescription }) => {
+  return <p className={isDescription ? classes.p : classes.pDesc}>{someTxt}</p>;
 };
 
 export default Paragraph;
