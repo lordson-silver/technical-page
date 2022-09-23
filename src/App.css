@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   font-size: 62.5%;
   /* rem/em: 1em = 10px */
 }
-body{
-  margin: 2em;
+body {
+  /* margin: 2em; */
   height: inherit;
   width: inherit;
+  background-color: rgba(28, 29, 29, 0.678);
 }
